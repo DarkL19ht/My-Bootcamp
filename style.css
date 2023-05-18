@@ -1,0 +1,43 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px){
+    .news-input {
+        width: 10%;
+    }
+
+    .news{
+        width: 90%;
+    }
+
+   
+
+    
+}
+
+@media(max-width: 768px){
+    
+
+     /* #gmap_canvas{
+        width: 50%;
+        display: grid;
+        place-items: left;
+        margin: 0;
+    } */
+
+    .gmap_canvas{
+        width: 100% !important;
+        margin: 0%;
+        /* display: grid;
+        place-items: left; */
+    }
+    
+    .mapouter{
+        width: 100% !important;
+    }
+
+    
+}
